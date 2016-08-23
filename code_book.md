@@ -16,6 +16,7 @@ These signals were used to estimate variables of the feature vector for each pat
 ###Processes
 
 Processes done to get the tidy dataset from the initial data were:
+<pre>
 1) Get feature names and select only features of mean or std measures
 2) Get the train and test feature sets on selected featuresets
 3) Combine training and testing, attach column names
@@ -25,7 +26,7 @@ Processes done to get the tidy dataset from the initial data were:
 7) Combine subjects and activities
 8) Combine subjects and activities with total features
 9) Calculate and report means of all measures
-
+</pre>
 ###Tidy Dataset
 
 This tidy dataset is a subset of the initial data containing the subject id (1-30), the activity performed by the subject, and measurements on the mean and standard deviation for each measurement.
