@@ -30,6 +30,7 @@ Processes done to get the tidy dataset from the initial data were:
 
 This tidy dataset is a subset of the initial data containing the subject id (1-30), the activity performed by the subject, and measurements on the mean and standard deviation for each measurement.
 Columns of the tidy dataset:
+<pre>
 "subjectid"
 "activity"
 "tBodyAcc-mean()-X" 
@@ -111,3 +112,4 @@ Columns of the tidy dataset:
 "fBodyBodyGyroJerkMag-mean()" 
 "fBodyBodyGyroJerkMag-std()" 
 "fBodyBodyGyroJerkMag-meanFreq()"
+</pre>
